@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Baju Stylish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <style>
+        .transition-all {
+            transition: all 0.5s ease-in-out;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        body {
+            background-color: #f5e6d3;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-[#d2b48c] shadow-md fixed top-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <h1 class="text-3xl font-extrabold text-[#5a3825] transition-all hover:text-[#8b5e3c]">Toko Baju Elegan</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="text-[#5a3825] hover:text-[#8b5e3c] transition-all">Home</a></li>
+                    <li><a href="#produk" class="text-[#5a3825] hover:text-[#8b5e3c] transition-all">Produk</a></li>
+                    <li><a href="#kontak" class="text-[#5a3825] hover:text-[#8b5e3c] transition-all">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="text-center py-32 bg-cover bg-center animate__animated animate__fadeIn" style="background-image: url('https://source.unsplash.com/1600x900/?fashion,style');">
+        <div class="bg-[#8b5e3c] bg-opacity-80 py-20 px-6 rounded-lg">
+            <h2 class="text-5xl text-white font-extrabold mb-6 animate__animated animate__zoomIn">Gaya Elegan & Trendi!</h2>
+            <p class="text-white text-lg mb-6">Dapatkan koleksi baju elegan dan stylish dengan harga terbaik.</p>
+            <a href="#produk" class="mt-6 inline-block bg-[#5a3825] text-white px-8 py-4 rounded-lg shadow-lg hover:bg-[#8b5e3c] transition-all text-xl font-semibold">Lihat Produk</a>
+        </div>
+    </section>
+    
+    <section id="produk" class="container mx-auto py-20 px-5">
+        <h3 class="text-4xl text-center font-bold text-[#5a3825] mb-14 animate__animated animate__fadeInUp">Produk Kami</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="bg-white shadow-lg rounded-lg p-6 transition-all hover:shadow-2xl hover-scale animate__animated animate__zoomIn">
+                <img src="cardigan.jpg" alt="Cardigan Stylish" class="w-full rounded-md mb-6">
+                <h4 class="text-2xl font-bold text-[#8b5e3c]">Baju Casual</h4>
+                <p class="text-gray-600 mb-2">Nyaman dan super stylish.</p>
+                <span class="text-xl font-semibold text-[#5a3825]">Rp 94.905</span>
+                <a href="https://id.shp.ee/e9jvbi2?smtt=0.0.9" class="block w-full bg-[#5a3825] text-white mt-4 py-3 rounded-lg hover:bg-[#8b5e3c] transition-all text-center text-lg font-semibold">Beli Sekarang</a>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6 transition-all hover:shadow-2xl hover-scale animate__animated animate__zoomIn">
+                <img src="abuabu.jpg" alt="Cardigan Stylish" class="w-full rounded-md mb-6">
+                <h4 class="text-2xl font-bold text-[#8b5e3c]">Dress Elegan</h4>
+                <p class="text-gray-600 mb-2">Gaya anggun dan elegan.</p>
+                <span class="text-xl font-semibold text-[#5a3825]">Rp 67.617</span>
+                <a href="https://id.shp.ee/4bdre07?smtt=0.0.99" class="block w-full bg-[#5a3825] text-white mt-4 py-3 rounded-lg hover:bg-[#8b5e3c] transition-all text-center text-lg font-semibold">Beli Sekarang</a>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-6 transition-all hover:shadow-2xl hover-scale animate__animated animate__zoomIn">
+                <img src="kemeja.jpg" alt="Cardigan Stylish" class="w-full rounded-md mb-6">
+                <h4 class="text-2xl font-bold text-[#8b5e3c]">Dress Elegan</h4>
+                <p class="text-gray-600 mb-2">Gaya anggun dan elegan.</p>
+                <span class="text-xl font-semibold text-[#5a3825]">Rp 165.775</span>
+                <a href="https://id.shp.ee/w78gemi?smtt=0.0.9" class="block w-full bg-[#5a3825] text-white mt-4 py-3 rounded-lg hover:bg-[#8b5e3c] transition-all text-center text-lg font-semibold">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="kontak" class="bg-[#8b5e3c] text-white py-16 animate__animated animate__fadeInUp">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">Hubungi Kami</h3>
+            <p class="mb-3">Shopee: <a href="https://id.shp.ee/f8fj4lb?smtt=0.0.9" class="text-white underline">Kunjungi Shopee Kami</a></p>
+            <p class="mb-3">WhatsApp: <a href="https://wa.me/6289652973030" class="text-white underline">Chat via WhatsApp</a></p>
+        </div>
+    </section>
+    
+    <footer class="bg-[#5a3825] text-white text-center py-6 animate__animated animate__fadeIn">
+        <p>&copy; 2025 Toko Baju Elegan. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
