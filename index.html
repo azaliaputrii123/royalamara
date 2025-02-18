@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azalea Hijab - Affiliate Shopee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <style>
+        body { background-color: #fff0f6; font-family: 'Poppins', sans-serif; }
+        .product-card {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(248, 209, 209, 0.1);
+            text-align: center;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .product-card button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #e60073;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Styling untuk tombol WhatsApp melayang */
+        .wa-floating {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        /* Efek saat tombol di-hover */
+        .wa-floating:hover {
+            transform: scale(1.1);
+        }
+
+        /* Gambar ikon WhatsApp */
+        .wa-floating img {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body class="bg-pink-50">
+    <div class="container mx-auto p-6">
+        <h1 class="text-4xl font-bold text-center my-6 text-pink-700">🌸 Koleksi Hijab, Baju Muslim & Aksesoris 🌸</h1>
+        <p class="text-center text-pink-500 mb-8 text-lg">Dapatkan produk berkualitas dengan harga terbaik. Klik produk untuk beli di Shopee!</p>
+        
+        <h2 id="hijab" class="text-2xl font-semibold text-pink-700 mb-4">Hijab</h2>
+        <div class="product-slider">
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/2LJXczQXIY" target="_blank"><img src="hijab1.jpg" alt="Hijab 1"></a>
+                <p>Hijab Premium</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/2LJXczQXIY'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/7fL3z8Od4D" target="_blank"><img src="hijab2.jpg" alt="Hijab 2"></a>
+                <p>Hijab Paris</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/7fL3z8Od4D'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/vcshU0vq" target="_blank"><img src="hibaj3.jpg" alt="Hijab 3"></a>
+                <p>Hijab Instant</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/vcshU0vq'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/8fDbEQIB7L" target="_blank"><img src="hijab4.jpg" alt="Hijab 4"></a>
+                <p>Hijab Paris Jadul</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/8fDbEQIB7L'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href=" https://s.shopee.co.id/qUjuhmq36?share_channel_code=2" target="_blank"><img src="hijab5.png" alt="Hijab 4"></a>
+                <p>Pashmina kaos rayon basic by sfgiandra </p>
+                <button onclick="window.location.href=' https://s.shopee.co.id/qUjuhmq36?share_channel_code=2'">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <h2 id="baju-muslim" class="text-2xl font-semibold text-pink-700 mt-10 mb-4">Baju Muslim</h2>
+        <div class="product-slider">
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/2LJXdudbPu" target="_blank"><img src="baju1.jpg" alt="Baju 1"></a>
+                <p>Gamis Mewah</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/2LJXdudbPu'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/4AlBpUDPsm" target="_blank"><img src="baju2.jpg" alt="Baju 2"></a>
+                <p>Setelan Muslim</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/4AlBpUDPsm'">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <h2 id="aksesoris" class="text-2xl font-semibold text-pink-700 mt-10 mb-4">Aksesoris</h2>
+        <div class="product-slider">
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/6fSWoYVzLH" target="_blank"><img src="innner.jpg" alt="Aksesoris 1"></a>
+                <p>Inner Basic Turki</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/6fSWoYVzLH'">Beli Sekarang</button>
+            </div>
+            <div class="product-card">
+                <a href="https://s.shopee.co.id/6fSWoYVzLH" target="_blank"><img src="bros.jpg" alt="Aksesoris 2"></a>
+                <p>Bross Pin Wanita</p>
+                <button onclick="window.location.href='https://s.shopee.co.id/6fSWoYVzLH'">Beli Sekarang</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('.product-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 999,
+                prevArrow: '<button type="button" class="slick-prev">&#9665;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#9655;</button>',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <!-- Tombol WhatsApp -->
+    <a href="https://wa.me/6288980095005" target="_blank" class="wa-floating">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Chat WhatsApp">
+    </a>
+</body>
+</html>
